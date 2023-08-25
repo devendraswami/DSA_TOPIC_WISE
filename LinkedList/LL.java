@@ -206,7 +206,55 @@
   }
 
     
-     
+  // We have to find the middle of the linkedlist if the number is odd then simply return the middle one if the numbers of nodes in the linked list is even the return the second one 
+   
+ // Two pointer approach 
+
+ public void findMiddle() {
+        
+  Node slowPtr = head; 
+  Node fastPtr = head ;
+
+   while(fastPtr != null && fastPtr.next != null) {
+       
+     slowPtr = slowPtr.next; 
+     fastPtr = fastPtr.next.next; 
+   }  
+
+   System.out.println("Middle of the list is : " + slowPtr.data );
+
+
+ } 
+
+
+
+ // Cycle detection in a linkedList  
+ //  Floyd's Algorithm 
+
+ public void detectCycle() {
+        
+  Node slow = head; 
+  Node fast = head;   
+   int flag = 0; 
+  
+   while(slow.next != null && fast != null && fast.next != null) {
+      
+    slow = slow.next; 
+    fast = fast.next.next;  
+
+     if(slow == fast) {
+         flag = 1;  
+         break; 
+     }  
+   } 
+
+   if(flag != 0) {
+       System.out.println("Loop Detected in the List ");
+   } else {
+    System.out.println("Loop is not detected in the list ");
+   }
+
+ }
    
 
 
@@ -219,13 +267,33 @@
       list.addFirst("is");
       list.addFirst("This");  
 
-      list.addLast("List"); 
+      //list.addLast("List"); 
 
       list.printList();   
 
-      list.reverseIteratively();
+     // list.reverseIteratively();
 
-      list.printList();   
+      
+     // list.findMiddle();   
+
+    // This to crete a cylcle in the linkedList 
+
+    /*  
+
+     Node temp = list.head; 
+
+     while(temp.next != null) {
+        temp = temp.next; 
+     }  
+
+     temp.next = list.head;   
+
+     */
+
+
+     list.detectCycle();
+
+
 
 
 

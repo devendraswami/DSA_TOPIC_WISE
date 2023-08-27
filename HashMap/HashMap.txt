@@ -1,6 +1,7 @@
 
 -> HashMap is implementing the hashing Data Strucuture. 
--> HaspMap is used to store the data in Key-Value Pair form
+-> HaspMap is used to store the data in Key-Value Pair form 
+-> Keys are unique in HashMap 
 
 What is Collision in HashMap ? 
 

@@ -2,6 +2,8 @@
 -> HashMap is implementing the hashing Data Strucuture. 
 -> HaspMap is used to store the data in Key-Value Pair form 
 -> Keys are unique in HashMap 
+-> If you try to add the key value pair which is already present then the value will be updated and you will
+   losses previous value.
 
 What is Collision in HashMap ? 
 

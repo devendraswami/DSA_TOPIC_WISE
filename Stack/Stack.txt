@@ -1,2 +1,3 @@
+Stack- 
 
 Stack is a linear data Structure. 

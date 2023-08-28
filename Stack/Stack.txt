@@ -1,3 +1,20 @@
 Stack- 
 
 Stack is a linear data Structure. 
+Stack follows the LIFO(Last in First Out) 
+                   or 
+                 FILO (first in Last Out)
+
+-> Real time application of stack is - 1. undo Operation -> ctrl+Z 
+                                       2. To store recursive calls 
+
+Abstract Data Type ->  
+                    Most frequently operations which are used in stack are - 1. push() - insert the data in stack 
+                                                                             2. pop() - delete the element from the stack. 
+
+
+Function of Stack - 1. push() 
+                    2. pop() - Delete the top Most element
+                    3. peek() - Fetch the top most element from the stack 
+                    4. search() - return the position of element from the upside. If the element is not preset in the stack the it will retun -1; 
+                    5. empty() - return boolean value if the statck is empty it will return true else false

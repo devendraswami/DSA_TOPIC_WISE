@@ -1,0 +1,27 @@
+
+Queue - 
+
+A Queue is a linear data structure which is open at both ends  and operations are performed in first in first out order . 
+
+Example - Browsing History will be deleted after 30 days. and first that will be deleted which was first inserted. 
+
+
+first - deletion 
+rear - insert 
+
+Abstract Data Type- 1. Enqueue --> insertion 
+                       add() 
+                       T.C - o(1) 
+                    
+                    2. Dequeue --> Deletion 
+                                remove() 
+                        T.C - o(1) 
+
+
+ Functions - 
+
+   1. add() - to add elements  at rear
+   2. remove() - first inserted will be deleted 
+   3. peek() - top most element will fetched (Which was first inserted ) 
+
+   

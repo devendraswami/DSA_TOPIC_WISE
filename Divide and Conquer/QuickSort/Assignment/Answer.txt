@@ -1,0 +1,41 @@
+
+
+ What is the time complexity of the Quick Select algorithm?
+a) O(n)
+b) O(nlogn)
+c) O(n^2)
+d) O(logn)  
+
+Answer - Generally the time complexity of Quick Select algorithm is O(n).  But in wrost case it can be O(n^2). 
+
+
+
+Which data structure is used in Quick Select algorithm?
+a) Linked List
+b) Array
+c) Binary Tree
+d) Stack 
+
+Answer - Array data structure is used in Quick Select Algorithm 
+
+
+
+Which partitioning scheme is used in Quick Select algorithm?
+a) Lomuto partition scheme
+b) Hoare partition scheme
+c) Merge sort partition scheme
+d) Heap sort partition scheme 
+
+Hoare Partition scheme 
+
+In the Quick Select algorithm, which element is chosen as the pivot element?
+a) The first element
+b) The middle element
+c) The last element
+d) A random element 
+
+ Random element 
+
+ 
+
+

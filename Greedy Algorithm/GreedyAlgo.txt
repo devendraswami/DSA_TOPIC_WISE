@@ -1,0 +1,25 @@
+
+
+Greedy - Choosing the best for self 
+
+Used to find the maxima or minima of something 
+
+
+
+
+logic -- 
+
+      Greedy(a,n) {
+        for(i = 0 to n) {
+            x = selection(a); 
+
+            if feasible(x) {
+                solution += x ; 
+
+            }
+        } 
+        return solution; 
+      }
+
+
+
